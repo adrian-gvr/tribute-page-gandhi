@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page to Mahatma Gandhi </title>
+  <link rel="stylesheet" href="tributeStyle.css">
+
+<style>
+  html {
+    /* 1rem === 10px, 1.5rem === 15px; 2rem === 30px; */
+    font-size: 10px;
+  }
+
+  body {
+    font-family: 'Segoe UI', 'Roboto', Tahoma, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
+  h2 {
+    font-size: 3.25rem;
+  }
+
+  a {
+    color: #477ca7;
+  }
+
+  a:visited {
+    color: #a2aa9f;
+  }
+
+  a:hover{
+    color: #042642
+  }
+
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+
+  @media (max-width: 460px){
+    #main {
+      margin: 0;
+    }
+  }
+
+  img {
+    width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 460px){
+    img {
+     width: 10%;
+    }
+  }
+
+  #img-div {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+
+  @media (max-width: 460px){
+    #img-caption {
+      font-size: 1.4rem
+    }
+  }
+
+  #headline {
+    margin: 50px 0;
+    text-align:center;
+  }
+
+  ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  li {
+    margin: 16px 0;
+  }
+
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+   li::marker {
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {}; 
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)){
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Mahatma Gandhi</h1>
+    <p> L'uomo che è diventato leggenda grazie alla <strong>non-violenza</strong>.</p>
+    <!-- <p>The man who change a country for change the world.</p> -->
+    <figure id="img-div">
+  
+      <img id="image"
+        src="mahatma-3938383_1920.jpg"
+        alt="statua di Mahatma Gandhi">
+
+      <figcaption id="img-voice"><blockquote cite="https://www.scambieuropei.info/frasi-gandhi-citazioni/">
+        <p>Dicono che sono un eroe. Io: debole, timido, quasi insignificante. Se essendo ciò che sono ho fatto quello che ho fatto, immaginate cosa potete fare tutti voi, insieme. </p>
+        <cite>-- Mohandas Karamchand Gandhi </cite>
+      </blockquote></figcaption>
+
+      <figcaption id="img-caption">
+      <blockquote>
+        In India, <strong>Gandhi</strong> è stato riconosciuto come <b>"Padre della nazione" </b>
+        e il giorno della sua nascita <em>(2 ottobre)</em> è un giorno festivo. 
+        Questa data è stata anche dichiarata <strong>Giornata internazionale della nonviolenza</strong>
+        dall'<abbr title="Assemblea generale delle Nazioni Unite">UNGA</abbr>.
+      </blockquote>
+        </figcaption>
+    </figure>
+    
+    <section id="tribute-info"></section>
+    <h3 id="headline">La linea temporale del Mahatma Gandhi</h3>
+    <ul>
+      <li>
+        <strong>2 ottobre 1869</strong>
+        " - nasce a Porbandar, città nello stato del Gujarat, India "
+      </li>
+      <li>
+      <strong>1876</strong>
+        " - capisce che la morale è alla base di tutte le cose e che la morale è la verità "
+      </li>
+      <li>
+      <strong>1881</strong>
+        " - Compie gli studi superiori presso la Alfred High School a Rajkot "
+      </li>
+      <li>
+      <strong>1882</strong>
+        " - l'inconsapevole Mohandas sposa all'età di tredici anni la coetanea Kasturbai Makanji,
+        generando in lui in grande senso di colpa e la ripulsa nel confronti della sfera sessuale "
+      </li>
+      <li>
+        <strong>1885</strong>
+          " all'età di 63 anni muore il padre "
+      </li>
+      <li>
+        <strong>1894</strong>
+          "  sceglie di essere pienamente felice"
+      </li>
+      <li>
+        <strong>1891</strong>
+          " consegna della laurea in legge e torna in India "
+      </li>
+      <li>
+        <strong>1893</strong>
+          " si reca in Sudafrica dove prende coscienza del problema dell'apartheid "
+      </li>
+      <li>
+        <strong>1894</strong>
+          "  aiuta Balasundaram, un lavoratore a contratto picchiato dal suo datore di lavoro. Conquista, così, la stima dei lavoratori a contratto indiani. "
+      </li>
+      <li>
+        <strong>1895</strong>
+          " visita un monastero trappista vicino Durban dove rimane molto colpito dalla profondità religiosa dei monaci e dalla loro austerità di vita. "
+      </li>
+      <li>
+        <strong>1896</strong>
+          " pubblica un libercolo dal titolo "Grievances of the British Indians South Africa" ("Le lagnanze degli indiani britannici in Sudafrica"), detto, in seguito, a motivo del colore della rilegatura, Il quaderno verde, in cui descrive la condizione degli indiani del Natal raccontando la storia delle proteste messe in atto e i particolari delle innumerevoli sofferenze della comunità indiana in Sudafrica "
+      </li>
+      <li>
+        <strong>13 gennaio 1897</strong>
+          " appena sbarcato dalla nave al porto di Durban, Gandhi rischia di soccombere ad un linciaggio da parte di uomini bianchi "
+      </li>
+      <li>
+        <strong>1900</strong>
+          " in pieno corso della guerra contro i Boeri (1899-1902) e Gandhi vi partecipa organizzando un corpo volontario di trecento barellieri indiani, per persuadere gli inglesi sulla lealtà degli indiani all’impero britannico. "
+      </li>
+      <li>
+        <strong>1901</strong>
+          " fa approvare con non poche difficoltà dal Congresso Indiano una risoluzione sugli indiani del Sudafrica "
+      </li>
+      <li>
+        <strong>1903</strong>
+          "  fonda il giornale settimanale Indian Opinion, dalla tiratura di 3500 copie. "
+      </li>
+      <li>
+        <strong>1904</strong>
+          " legge i libri sacri dell'induismo, ed inoltre "In voi è il Regno di Dio" di Lev Tolstoj e "Fino all'ultimo" di John Ruskin, che successivamente tradurrà in gujarati col titolo "Sarvodaya" (benessere per tutti). "
+      </li>
+      <li>
+        <strong>1905</strong>
+          " aderisce al boicottaggio di sfida verso l'Impero inglese da parte del Congresso Indiano "
+      </li>
+      <li>
+        <strong>1906</strong>
+          " Gandhi organizza una campagna di non-obbedienza alla legge ingiusta (Black act) "
+      </li>
+      <li>
+        <strong>1908</strong>
+          " durante la sua prima prigionia, Gandhi legge il libro Difesa della disobbedienza civile di Henry David Thoreau "
+      </li>
+      <li>
+        <strong>1909</strong>
+          " scrive un opuscolo di ottanta pagine intitolato Hind Swaraj or Indian Home Rule, nel quale critica pesantemente il materialismo egoistico della civiltà industriale, alienata e schiavizzata dalle macchine, generatrici di disoccupazione e miseria "
+      </li>
+      <li>
+        <strong>1910</strong>
+          "  fonda la Fattoria Tolstoj, un secondo ashram di 450 ettari a più di trenta chilometri da Johannesburg, che riproduce il modello di vita già sperimentato nella fattoria di Phoenix e che sarà riproposto da Gandhi anche per gli ashram in India. "
+      </li>
+      <li>
+        <strong>1912</strong>
+          "  il leader del Congresso indiano Gokhale fa visita a Gandhi in Sudafrica"
+      </li>
+      <li>
+        <strong>1913</strong>
+          " contro la legge sui matrimoni, Gandhi marcia da Newcastle a Volkrust con più di duemila minatori in sciopero attraversando il confine del Transvaal. "
+      </li>
+      <li>
+        <strong>1914</strong>
+        " il generale Smuts, presidente del Transvaal, firma con Gandhi un accordo nel quale viene abolita la tassa di tre sterline e resi legali i matrimoni tra non cristiani. "
+      </li>
+      <li>
+        <strong>9 gennaio 1915</strong>
+        " torna in India e viene festeggiato come eroe nazionale"
+      </li>
+      <li><strong>1916</strong>
+        " viaggia in treno nei vagoni di terza classe per conoscere l’India "
+      </li>
+      <li><strong>1917</strong>
+        " intenta il primo satyagraha in India "
+      </li>
+      <li><strong>1918</strong>
+        " Guida uno sciopero dei lavoratori tessili di Ahmedabad "
+      </li>
+      <li><strong>6 aprile 1919</strong>
+        " contro i "Rowlatt Acts", oppone un movimento di disobbedienza civile "
+      </li>
+      <li><strong>to be continued</strong></li>
+    </ul>
+    <blockquote cite="https://www.scambieuropei.info/frasi-gandhi-citazioni/">
+      <p>Dicono che sono un eroe. Io: debole, timido, quasi insignificante. Se essendo ciò che sono ho fatto quello che ho fatto, immaginate cosa potete fare tutti voi, insieme. </p>
+      <cite>-- Mohandas Karamchand Gandhi </cite>
+    </blockquote>
+    <a id="tribute-link" href="https://it.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">Link esterno di approfondimento</a>
+  </main>
+</body>
+
+</html>
